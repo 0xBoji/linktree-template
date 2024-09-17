@@ -45,7 +45,9 @@ function Profile() {
                 </div>
 
                 <div className="profile-bio">{profile.bio}</div>
-
+                <div className="profile-additional-info">
+                    Mibu Kyoshiro 777.sui 789.arb 999.bnb
+                </div>
                 <div className="social_media flex flex-col">
                     {profile.socialMedia.map((el, i) => <Button name={el.name} url={el.url} index={i} />)}
                 </div>
