@@ -2,24 +2,22 @@ import { IonIcon } from '@ionic/react';
 import { checkmarkCircleSharp } from 'ionicons/icons';
 
 const profile = {
-    fullname: 'Marwan Zaky',
-    bio: 'Hey! I\'m Marwan, I like to code. 👋',
-    picture: 'https://avatars.githubusercontent.com/u/64248203?v=4',
+    fullname: 'Mibu Kyoshiro',
+    bio: 'Web3 Enthusiast | SUI maxi | Domain lover',
+    picture: 'https://cyan-eldest-earwig-943.mypinata.cloud/ipfs/QmTQmoiAYBW4z5rSGMNWAbfoXtqhUsbKMxarm4KAuKqJdQ',
     socialMedia: [
-        { name: 'Buy me a coffee ☕️', url: 'https://www.buymeacoffee.com/marwanzaky' },
-        { name: 'Visit my portfolio 🍳', url: 'https://marwanzaky.com' },
-        { name: 'Learn web dev 💻', url: '#' },
-        { name: 'Visit my github 🤓', url: 'https://github.com/marwanzaky' },
-        { name: 'Follow my twitter 💬', url: 'https://twitter.com/marwan_zaky_dev' }
+        { name: 'Twitter', url: 'https://x.com/MinhTranQuang10' },
+        { name: 'Telegram', url: 'https://t.me/Mibu999' },
+        { name: 'Discord (Suisian)', url: 'https://discord.gg/sxAvgYmZ' },
+        { name: 'Website', url: 'https://999.bnb.me/' },
     ]
 }
 
 const colors = [
     "#F4F1DE",
-    "#E07A5F",
+    "#6DC7F7",
     "#3D405B",
     "#81B29A",
-    "#F2CC8F"
 ];
 
 function Button(props) {
@@ -37,7 +35,7 @@ function Button(props) {
 function Profile() {
     return (
         <section className="profile">
-            <div className='m-auto w-full sm:w-[300px]'>
+            <div className='m-auto w-full sm:w-[280px]'>
                 <div className="mb-5">
                     <div className="profile-picture"><img src={profile.picture} alt={profile.name}></img></div>
                     <h1 className="profile-fullname">
@@ -46,7 +44,6 @@ function Profile() {
                     </h1>
                 </div>
 
-                <h1 className="profile-about">About</h1>
                 <div className="profile-bio">{profile.bio}</div>
 
                 <div className="social_media flex flex-col">

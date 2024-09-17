@@ -9,8 +9,11 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
-  background-color: #F4F1DE;
+  background-image: url('https://cyan-eldest-earwig-943.mypinata.cloud/ipfs/QmZKvLt1RTpKVq8P6NV4XefwUXScssCZBwLoyP1BDFScFs');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 section {
@@ -26,7 +29,7 @@ h1 {
 
 /*------- APP -------*/
 .App {
-  padding-top: 20px;
+  padding-top: 0px;
 }
 
 /*------- PROFILE -------*/
